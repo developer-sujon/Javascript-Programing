@@ -77,8 +77,32 @@
 
 //Big(O) = O(1) = constant
 
-function add (a, b, c){
-    console.log(a + b + c);
+// function add (a, b, c){
+//     console.log(a + b + c);
+// }
+
+
+//O(1) best case
+//O(n) worst case
+
+// function log (n){
+//     for(let i =1; i <= Math.max(5, n); i++){
+//         console.log(i);
+//     }
+// }
+
+//O(n+m)
+
+function log (a, b){
+    for(let i =1; i <=a; i++){
+        console.log(i);
+    }
+
+    for(let i =1; i <=b; i++){
+        console.log(i);
+    }
 }
 
-console.log(add(4,3,2));
+log(5, 10)
+
+//Efficiency O(log n) - O(1) - O(n) - O(n log n) - O(n^2)

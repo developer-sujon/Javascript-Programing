@@ -36,3 +36,8 @@ for (let key in person) {
 }
 
 console.log(person);
+
+
+//Object.keys() O(n)
+//Object.values() O(n)
+//Object.entries() O(n)

@@ -4,6 +4,7 @@
  * you have to sum the numbers
  */
 
+
 function arrSum(arr) {
   //flag variable
   let sum = 0;

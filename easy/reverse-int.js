@@ -1,6 +1,5 @@
 /**
  * number reversal
- * Directions
  * Given a number, return a new number with the reversed
  */
 

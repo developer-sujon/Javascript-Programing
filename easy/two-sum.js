@@ -1,6 +1,7 @@
 /**
+ * 1. Two Sum leetcode
  * Given an array of integers nums and an integer target
- * return indices of the two    numbers such that they add up to target.
+ * return indices of the two numbers such that they add up to target.
  * @example [2,7,11,15], target = 9 --> [0,1]
  * @example [3,2,4], target = 6 --> [1,2]
  * @example [3,2,6], target = 7 --> []
@@ -21,7 +22,6 @@ function twoSum(nums, target) {
   for (let i = 0; i < nums.length; i++) {
     const want = target - nums[i]; // 9 - 11 = -2, 9-5 = 2, 9-2 = 7, 9-7 = 2
     if (want in hashTable) return [want, i];
-    console.log(hashTable);
     hashTable[nums[i]] = i;
   }
 }
@@ -31,6 +31,6 @@ function twoSum(nums, target) {
 // 2 -2
 // 3 -6
 
-const result = twoSum([11, 5, 2, 7], 9);
+const result = twoSum([11, 5, 2, 7, 2, 3], 9);
 
 console.log(result);

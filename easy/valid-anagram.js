@@ -8,21 +8,22 @@
  * @example Input: s = "rat", t = "car"  Output: false
  */
 var isAnagram = function (s, t) {
+  if (s.length !== t.length) return false;
   const normalizeStrS = s.replace(/[^\w_-]/g, "");
   const normalizeStrT = t.replace(/[^\w_-]/g, "");
   const hashTableS = {};
   const hashTableT = {};
 
-  for (let el in normalizeStrS) {
-    hashTableS[normalizeStrS[el]] = (hashTableS[normalizeStrS[el]] || 0) + 1;
+  for (let el of normalizeStrS) {
+    hashTableS[el] = (hashTableS[el] || 0) + 1;
   }
 
-  for (let el in normalizeStrT) {
-    hashTableT[normalizeStrT[el]] = (hashTableT[normalizeStrT[el]] || 0) + 1;
+  for (let el of normalizeStrT) {
+    hashTableT[el] = (hashTableT[el] || 0) + 1;
   }
 
   for (let el in hashTableS) {
-    if (!hashTableS[el] in hashTableT || hashTableS[el] !== hashTableT[el]) {
+    if (!el in hashTableT || hashTableT[el] !== hashTableS[el]) {
       return false;
     }
   }
@@ -30,5 +31,5 @@ var isAnagram = function (s, t) {
   return true;
 };
 
-const result = isAnagram("rice", "ecar");
+const result = isAnagram("ab", "ab");
 console.log(result);

@@ -6,24 +6,31 @@
  * @example input [1, 2, 3] output undefined
  */
 
+// left = 0, right=22, sum=19
+// left = 0, right=9, sum=7
+// left = 0, right=4, sum=1
+// left = 0, right=-7, sum=-10
+// left = 1, right=-7, sum=-10
+
 function sumZero(arr) {
   let left = 0;
   let right = arr.length - 1;
 
-  while (left < 10) {
+  while (left < right) {
     const sum = arr[left] + arr[right];
     if (sum === 0) {
       return [arr[left], arr[right]];
     } else if (sum > 0) {
       right--;
     } else if (sum < 0) {
-      left--;
+      console.log(sum);
+      left++;
     }
   }
 
   return undefined;
 }
 
-const result = sumZero([-3, -2, -1, 0, 1, 2, 3]);
+const result = sumZero([-3, -7, 4, 9, 22]);
 
 console.log(result);

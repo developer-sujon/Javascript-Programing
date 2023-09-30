@@ -1,0 +1,32 @@
+Space complexity in Big O notation typically refers to the memory or space used by an algorithm or program in relation to the size of its input. It doesn't specifically consider the memory usage of individual data types like strings, arrays, objects, etc. Instead, it quantifies the overall memory requirements of the algorithm based on how it uses memory as it processes the input.
+
+However, the choice of data types and how they are used within an algorithm can impact the algorithm's space complexity. Here are some examples of how data types can affect space complexity:
+
+
+1. O(1) - Constant Time Complexity:
+Space Complexity: O(1)
+In algorithms with O(1) time complexity, the space complexity is also O(1). It means that the memory usage remains constant, regardless of the input size.
+
+2. O(log n) - Logarithmic Time Complexity:
+Space Complexity: O(log n)
+Algorithms with O(log n) time complexity often use recursion or divide-and-conquer strategies. The space complexity corresponds to the depth of the recursion stack, which grows logarithmically with the input size.
+
+3. O(n) - Linear Time Complexity:
+Space Complexity: O(1) to O(n)
+Algorithms with O(n) time complexity can have varying space complexities. In many cases, they use a constant amount of memory (O(1)), but in some cases, they might create additional data structures that grow linearly with the input size (O(n)).
+
+4. O(n log n) - Linearithmic Time Complexity:
+Space Complexity: O(n)
+Algorithms with O(n log n) time complexity, such as Merge Sort, often involve recursion and create temporary data structures. The space complexity is typically O(n) due to the memory required for recursion.
+
+5. O(n^2) - Quadratic Time Complexity:
+Space Complexity: O(1) to O(n^2)
+Algorithms with O(n^2) time complexity can have varying space complexities. Some use a constant amount of memory (O(1)), while others may create additional data structures that grow quadratically with the input size (O(n^2)).
+
+6. O(2^n) - Exponential Time Complexity:
+Space Complexity: O(n)
+Algorithms with O(2^n) time complexity, such as recursive algorithms that generate all subsets or combinations, typically have a space complexity of O(n) due to the recursion stack depth.
+
+7. O(n!) - Factorial Time Complexity:
+Space Complexity: O(n)
+Algorithms with O(n!) time complexity, like those generating all permutations, often have a space complexity of O(n) due to the recursion stack depth.

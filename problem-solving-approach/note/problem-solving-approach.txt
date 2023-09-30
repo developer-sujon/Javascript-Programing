@@ -1,0 +1,60 @@
+Problem Solving Approach
+1. Understand the Problem:
+Begin by carefully reading and understanding the problem statement or prompt. Ensure you have a clear grasp of the problem's requirements.
+
+Identify the inputs and outputs of the problem. What data or information is provided, and what results are expected?
+
+Verify if there is enough information to solve the problem or if you need to make any assumptions.
+
+Choose meaningful names for data and variables instead of using generic labels like "i," "j," or "temp."
+
+Consider how the problem should handle edge cases, such as empty input or invalid data.
+
+2. Devise a Plan:
+Think about the initial, native, or brute-force approach that comes to mind for solving the problem.
+
+Evaluate the limitations of the initial approach. Look for issues like high time complexity (e.g., O(n^2)), lack of readability, or inefficiency.
+
+Walk through your proposed algorithm step by step before writing any code. This helps clarify your thinking and identify potential challenges.
+
+Plan your code by documenting the steps you intend to follow. Include comments explaining your thought process and approach.
+
+Break down the code into smaller, manageable steps. Comment on the reasoning behind each step to make implementation and debugging easier.
+
+3. Coding:
+Follow the plan you've outlined and begin writing your code based on the documented steps.
+
+Start with a simplified version of the code and gradually add complexity. Avoid trying to write the entire solution all at once.
+
+Prioritize code readability by using clear variable names, consistent indentation, and meaningful comments.
+
+Optimize the code for efficiency in terms of both time and space complexity as needed.
+
+4. Testing and Debugging:
+Create test cases that cover various scenarios, including normal cases and edge cases.
+
+Verify that your solution produces the correct results for all test cases.
+
+Debug and address any issues or errors that arise during testing. Use debugging tools as necessary.
+
+5. Optimization and Refactoring:
+Analyze the code for potential optimizations, especially if you notice bottlenecks in terms of time or space complexity.
+
+Refactor the code to make it more efficient and maintainable while preserving correctness.
+
+6. Documentation:
+Add comments and documentation to your code to explain its logic, purpose, and any important considerations.
+
+Use meaningful variable and function names to enhance code readability.
+
+7. Review and Seek Feedback:
+Review your code and solution to ensure it meets all the requirements of the problem statement.
+
+Seek feedback from peers, mentors, or colleagues to gain different perspectives and improve your approach.
+
+8. Conclusion:
+After successfully solving the problem, take time to reflect on your approach and what you've learned.
+
+Consider how you can apply the problem-solving techniques you've used to other challenges in the future.
+
+This structured problem-solving approach can help you tackle a wide range of problems effectively and efficiently. Remember that practice and continuous learning are key to becoming a better problem solver.

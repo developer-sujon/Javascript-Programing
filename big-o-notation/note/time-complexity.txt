@@ -1,0 +1,19 @@
+Big O notation is used to describe the upper bound of the time complexity of an algorithm in computer science. While there isn't a standardized shorthand for Big O notation, it is typically represented using the letter "O" followed by a function that describes the upper bound of the algorithm's time complexity.
+
+Here are some common Big O notations and their shorthands:
+
+1. O(1) - Constant time complexity: This means the algorithm's runtime does not depend on the input size. There is no specific shorthand for O(1).
+
+2. O(log n) - Logarithmic time complexity: This means the algorithm's runtime grows logarithmically with the input size. There isn't a shorthand for O(log n).
+
+3. O(n) - Linear time complexity: This means the algorithm's runtime grows linearly with the input size. There isn't a shorthand for O(n).
+
+4. O(n log n) - Linearithmic time complexity: This means the algorithm's runtime grows n times a logarithmic factor with the input size. There isn't a shorthand for O(n log n).
+
+5. O(n^2) - Quadratic time complexity: This means the algorithm's runtime grows quadratically with the input size. There isn't a shorthand for O(n^2).
+
+6. O(2^n) - Exponential time complexity: This means the algorithm's runtime grows exponentially with the input size. There isn't a shorthand for O(2^n).
+
+7. O(n!) - Factorial time complexity: This means the algorithm's runtime grows factorial with the input size. There isn't a shorthand for O(n!).
+
+Big O notation provides a concise way to express how the runtime of an algorithm scales with the input size, but there's no standardized shorthand beyond the letter "O" followed by the function describing the upper bound.

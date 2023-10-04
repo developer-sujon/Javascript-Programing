@@ -1,5 +1,5 @@
 /**
- * Count Characters in a String
+ * 1. Count Characters in a String
  * @description You are given a string s consisting of lowercase and/or uppercase English letters. Your task is to write a js function, count_characters(s: str) -> dict, to count the occurrence of each character in the string and return the results as a dictionary.
  * @example input - string "Hello" output - {h: 1, e:1, l:2, o:1}
  */
